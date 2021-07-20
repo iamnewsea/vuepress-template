@@ -6,71 +6,71 @@ Vuepress Template
 [![GitHub license](https://img.shields.io/github/license/openHacking/vuepress-template?style=flat-square)](https://github.com/openHacking/vuepress-template)
 </div>
 
-English| [简体中文](./README-zh.md)
+简体中文 | [English](./README.md)
 
-## Introduction
+## 介绍
 
-vuepress-template is a simple VuePress case template. The purpose is to allow users to directly clone this repository as a startup project for initializing a VuePress website, and then add custom configurations and functions based on this project.
+vuepress-template是一个简单的VuePress案例模板，目的是让用户可以直接clone这个仓库，作为初始化一个VuePress网站启动项目，然后在这个项目的基础上新增自定义配置和功能。
 
-⭐Just wanting a star😆
+⭐求个小星星😆
 
-## Documentation
+## 文档
 
-[Online Documentation](https://openhacking.github.io/vuepress-template/)
+[在线文档](https://openhacking.github.io/vuepress-template/)
 
-## Content
+## 内容
 
-Some niche templates, themes, and plugins are specially displayed in the project, and I recommend everyone to pay attention and use them
+项目中特别展示了一些小众模板、主题、插件，推荐大家关注和使用
 
-### Theme
+### 主题
 
-- [vuepress-theme-blogplus](https://github.com/Dushusir/vuepress-theme-blogplus) A concise blog theme
+- [vuepress-theme-blogplus](https://github.com/Dushusir/vuepress-theme-blogplus) 一款简洁的博客主题
 
-### Plugin
+### 插件
 
-- [vuepress-plugin-qrocde](https://github.com/openHacking/vuepress-plugin-qrcode) Display the current URL QR code for mobile devices to scan
+- [vuepress-plugin-qrocde](https://github.com/openHacking/vuepress-plugin-qrcode) 展示当前网址二维码供移动设备扫描
 
-## Usage
+## 用法
 
-### Step 1
+### 第一步
 
-Download the repository code of Vuepress Template
+下载 Vuepress Template 的仓库代码
 ```sh
 git clone https://github.com/openHacking/vuepress-template.git
 ```
 
-### Step 2
+### 第二步
 
-Installation dependencies
+安装依赖
 ```sh
 cd vuepress-template
-yarn # or npm i
+yarn # 或者npm i
 ```
 
-### Step 3
+### 第三步
 
-Start the project, then you can modify the configuration and write document content according to your needs
+启动项目，随后即可根据自己的需求修改配置、编写文档内容
 ```sh
 npm run docs:dev
 ```
 
-### Step 4
+### 第四步
 
-Packaged project
+打包项目
 ```sh
 npm run docs:build
 ```
-As a result, a `dist` folder will be generated in the `docs/.vuepress/` directory, which contains the packaged code
+结果会在`docs/.vuepress/`目录下生成一个`dist`文件夹，里面就是打包后的代码
 
-## Sponsor
+## 赞助
 
-If you think this project is useful or inspiring for you, you can buy the author a glass of juice:
+如果你觉得这个项目对你有用或者有所启发，可以请作者喝杯果汁：
+| 微信捐赠  | 支付宝捐赠
+|---|---|
+| <img src="./assets/wechat.jpg" width="140" />| <img src="./assets/alipay.jpg" width="140" />
 
-- [Paypal me](https://paypal.me/AlexLiu518)
-- [Buy me a coffee](https://www.buymeacoffee.com/openHacking)
+并联系作者加到赞助者列表： alexliu518@gmail.com
 
-And contact the author to add to the sponsors list: alexliu518@gmail.com
-
-## Sponsors List
+## 赞助者列表
 
 - [Dushusir](https://dushusir.github.io)
